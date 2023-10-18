@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>QUESTION-9 | JAVASCRIPT</title>
+</head>
+<body>
+    <!-- question-9 -->
+
+    <center>
+     <section class="que que9">
+        <h2><b>QUE:9 </b>How can the style/class of an element be changed ? </h2>
+     </section><hr>
+     </center>
+
+     <!-- ans-9 -->
+
+     <section class="ans ans9">
+        <p> -> You can use the below-mentioned methods to add classes, remove classes, and toggle between different classes respectively. <br><br>
+            1. The add() method: It adds one or more classes. <br><br>
+            2. The remove() method: It removes one or more classes. <br><br>
+            3. The toggle() method: If the class does not exist it adds it and returns true. <br><br>
+
+
+             <p class="p" id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nostrum voluptatibus quia facere animi voluptates vero voluptatem voluptatum iste! Repellat.</p>
+        
+            <button id="btn" class="btncss">CHANGE COLOR</button>
+            <br><br>
+            <p><mark> = IN THAT EXMPLE PARAGRAPH CLASS AND STYLE BOTH CAN CHANGE USING JAVASCRIPT </mark></p>
+        </p>
+     </section> 
+
+         <!-- buttons -->
+
+         <section class="buttons buttons9">
+            <button class="btn2 btn9"><a href="que-10.html" target="_blank" class="button btn2">QUE:10</a></button> <br>
+        
+            <button class="pre pre9" style="margin-top: 38px;"><a href="que-8.html"> previous </a></button>
+            </section>
+
+    <body>
+       
+     <script>
+        var a=document.getElementById("p1").className="a";
+        var b=document.getElementById("btn");
+        b.addEventListener("click",()=> {
+              
+            document.querySelector(".a").style.color="red";
+        // console.log(a);
+        });
+       
+     </script>
+</body>
+</html>

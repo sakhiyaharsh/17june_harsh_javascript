@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUESTION-6 | JAVASCRIPT</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    
+    <!-- question-6 -->
+
+    <center>
+        <section class="que que6">
+            <h1><b>QUE:6</b> Write the code for adding new elements dynamically ?</h1>
+        </section> <hr>
+    </center>
+
+    <!-- ans-6 -->
+
+     <section class="ans ans6">
+        <p><b>-> Adding new elements dynamically</b><br><br>
+          -> The createElement() method in JavaScript can be used to create new items dynamically. The setAttribute() method is used to set the attributes of the newly generated element. <br><br>
+        
+        </p>
+
+        <ul id="list">ADDING LIST ITEMS.... <br></ul>
+
+        <!-- <button id="db">CLICK FOR ADD ELEMENT</button> -->
+
+        <button id="btndynamic">CLICK ME</button>
+     </section>
+
+     <!--SCRIPT  -->
+
+       <script>
+
+           var a=document.getElementById("btndynamic");
+           var b=document.getElementById("list");
+
+             var cout = "hiee how are you...?";
+
+           a.addEventListener("click",() => {
+            
+            var n = document.createElement("li");
+            n.innerText=cout;
+            b.appendChild(n);
+
+            
+
+           });
+        
+                  
+
+              
+    //  var a=document.getElementById("btndynamic");
+    //  var b=document.getElementById("list");
+    //  var cout="hiee";
+
+    //  a.addEventListener("click", () => {
+    //   var n=document.createElement("li");
+    
+    //   n.innerText=cout;
+    //   b.appendChild(n);
+             
+    //  });
+
+         </script>
+
+
+ <!-- BUTTONS -->
+    <br><br>
+ <section class="buttons buttons5">
+  <button class="btn2 btn5"><a href="que-7.html" target="_blank" class="button btn2">QUE:7</a></button> <br>
+
+  <button class="pre pre5" style="margin-top: 38px;"><a href="que-5.html"> previous </a></button>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    width: 60%;
+    align-items: center;
+    margin: auto;
+    margin-top: 10rem;
+}
+.slider{
+    width: 25rem;
+    background-color: blueviolet;
+    height: 11rem;
+}
+.slider1{
+     width: 25rem;
+    background-color: blueviolet;
+    height: 11rem;
+}

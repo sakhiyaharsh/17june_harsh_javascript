@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUESTION-19 | JAVASCRIPT</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+     <!-- question-19 -->
+     <center>
+        <section class="que que18">
+        <h1><b>QUE:19</b> Create basic math operation in JS ?</h1>       
+        </section> <hr>
+    </center>
+
+    <!-- Ans-19 -->
+    <section class="ans ans19">
+        <div class="box">
+            <center><h2>Math Operation</h2>
+            <p class="math-p">Enter 1st Number :</p>
+            <input type="text" id="f-number"> <br>
+
+            <p class="math-p p-2">Enter 2nd Number :</p>
+            <input type="text" id="s-number">
+
+            <div class="main-btn">
+               <input type="button" value="+" class="btn-1 math-btn" id="b" onclick="add()">
+               <input type="button" value="-" class="btn-2 math-btn" id="b" onclick="sub()">
+               <input type="button" value="*" class="btn-3 math-btn" id="b" onclick="mul()"> <br>
+               <input type="button" value="/" class="btn-4 math-btn" id="b" onclick="div()">
+               <input type="button" value="%" class="btn-5 math-btn" id="b" onclick="mod()">
+            </div>
+            <p id="ans"></p>
+        </center>
+
+
+
+    </div>
+</section>
+
+        
+        <script>
+
+         var f=parseInt(document.getElementById("f-number").value);
+         var s=parseInt(document.getElementById("s-number").value);
+
+        //  addition
+
+         function add()
+         {
+          var l=f+s;  
+           var c=document.getElementById("ans").innerHTML+="ANSWER IS:"+ l + "<br> <br>";
+         }
+     
+        //  substraction
+         
+         function sub()
+         {
+          var l=f-s;  
+           var c=document.getElementById("ans").innerHTML+="ANSWER IS:"+ l + "<br> <br>";
+         }
+
+        //  multiplication
+        
+        function mul()
+         {
+          var l=f*s;  
+           var c=document.getElementById("ans").innerHTML+="ANSWER IS:"+ l + "<br> <br>";
+         }
+
+        //  division
+
+        
+        function div()
+         {
+          var l=f/s;  
+           var c=document.getElementById("ans").innerHTML+="ANSWER IS:"+ l + "<br> <br>";
+         }
+
+        //  modulo
+
+        
+        function mod()
+         {
+          var l=f%s;  
+           var c=document.getElementById("ans").innerHTML+="ANSWER IS:"+ l + "<br>";
+         }
+         </script>
+
+         <!-- buttons -->
+
+ <section class="buttons buttons11">
+    <button class="btn2 btn20"><a href="que-20.html" target="_blank" class="button btn2">QUE:19</a></button> <br>
+
+    <button class="pre pre18" style="margin-top: 38px;"><a href="que-18.html"> previous </a></button>
+    </section>
+
+
+</body>
+</html>

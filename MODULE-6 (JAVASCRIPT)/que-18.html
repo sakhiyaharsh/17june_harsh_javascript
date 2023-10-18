@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUESTION-18 | JAVASCRIPT</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <!-- question-18 -->
+    <center>
+        <section class="que que18">
+        <h1><b>QUE:18</b>Create password field with show hide functionalities ?</h1>       
+        </section> <hr>
+    </center>
+    <!-- Ans-18 -->
+    <center>
+    <form action="" id="form">
+        <label for="">Enter Password</label>
+        <input type="password" name="pass" id="pass" value="56565656" metho="post"> <br><br>
+        <input type="checkbox" id="btn-check"> Show Password
+    </center>
+       
+    </form>
+
+
+
+    <!-- buttons -->
+
+ <section class="buttons buttons11">
+    <button class="btn2 btn19"><a href="que-19.html" target="_blank" class="button btn2">QUE:19</a></button> <br>
+
+    <button class="pre pre17" style="margin-top: 38px;"><a href="que-17.html"> previous </a></button>
+    </section>
+
+
+
+    <script>
+        var a=document.getElementById("pass");
+        var b=document.getElementById("btn-check");
+        b.addEventListener("click",function (){
+            
+            if (a.type == "password") 
+            {
+                a.type = "text";
+             }
+             else {
+                 a.type = "password";
+
+               }
+         
+        });
+    </script>
+</body>
+</html>
