@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:cursive;
+    overflow-x: hidden;
+}
+.que{
+    color: brown;
+    padding: 15px;
+}
+.ans{
+    font-size: 17px;
+   margin: 18px;
+    width: 100%;
+}
+#slider img{
+   display: block;
+}
+#slider{
+    margin-left: 19%;
+    margin-top: 2%;
+}
+#img-1{
+    width: 700px;
+}
+#img-2{
+    width: 700px;
+}
+#img-3{
+    width: 700px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUESTION-2 | JQUERY</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+</head>
+<body>
+     <!-- QUE-2 -->
+     <center>
+        <section class="que que2">
+            <h2><b>QUE:2</b>How to Apply CSS Using JQuery, How to Add Class and Remove Class in
+                Jquery, JQuery Animation?</h2>
+        </section><hr>
+    </center>
+    <!-- ANS-2 -->
+    <section class="ans ans2">
+        <p>-> css() Method: The css() method allows you to get or set CSS properties for selected elements. To set CSS properties, you can pass an object with property-value pairs to the method. <br> <br>
+        <b>EXAMPLE: </b><br><br>
+        <p id="p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, explicabo!.</p>
+        </p>
+    </section>
+
+    <script>
+        $(document).ready(function(){
+            $("#p").addClass("classp");
+         $(".classp").css({"border":"5px double black","width":"42%","padding":"12px"});
+        //  $(".classp").css("width","42%");
+        //  $(".classp").css("padding","15px");
+        $(".classp").toggle(2000).show(2000);
+     
+        });
+    </script>
+</body>
+</html>
